@@ -1,0 +1,184 @@
+body {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+body.loaded {
+    opacity: 1;
+}
+
+.container {
+    position: relative;
+}
+
+.main-image {
+    position: absolute;
+    top: 12px;
+    left: 230px;
+    width: 1440px;
+    height: 868px;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    border-radius: 10px; /* Задаем радиус скругления */
+}
+
+
+.popup-info {
+    width: 800px; /* задайте нужную ширину */
+    height: 600px; /* задайте нужную высоту */
+}
+
+
+
+#close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.markers {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.marker {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    position: absolute;
+    border: 2px solid;
+    border-bottom: 3px solid;
+    font-weight: bold;
+}
+
+.marker:nth-child(1) {
+    top:  778px;
+    left: 533px;
+}
+
+.marker:nth-child(2) {
+    top: 700px;
+    left: 660px;
+}
+.marker:nth-child(3) {
+    top: 645px;
+    left: 1032px;
+}
+.marker:nth-child(4) {
+    top: 370px;
+    left: 880px;
+}
+.marker:nth-child(5) {
+    top: 615px;
+    left: 530px;
+}
+.marker:nth-child(6) {
+    top: 795px;
+    left: 518px;
+}
+.marker:nth-child(7) {
+    top: 240px;
+    left: 1009px;
+}
+.marker:nth-child(8) {
+    top: 160px;
+    left: 604px;
+}
+.marker:nth-child(9) {
+    top: 426px;
+    left: 365px;
+}
+.marker:nth-child(10) {
+    top: 297px;
+    left: 310px;
+}
+.marker:nth-child(11) {
+    top: 770px;
+    left: 365px;
+}
+.marker:nth-child(12) {
+    top: 796px;
+    left: 646px;
+}
+.marker:nth-child(13) {
+    top: 720px;
+    left: 900px;
+}
+.marker:nth-child(14) {
+    top: 510px;
+    left: 1400px;
+}
+.marker:nth-child(15) {
+    top: 470px;
+    left: 970px;
+}
+.marker:nth-child(16) {
+    top: 695px;
+    left: 938px;
+}
+.marker:nth-child(17) {
+    top: 676px;
+    left: 655px;
+}
+.marker:nth-child(18) {
+    top: 774px;
+    left: 344px;
+}
+.marker:nth-child(19) {
+    top: 810px;
+    left: 344px;
+}
+.marker:nth-child(20) {
+    top: 751px;
+    left: 584px;
+}
+.marker:nth-child(21) {
+    top: 410px;
+    left: 545px;
+}
+.marker:nth-child(22) {
+    top: 220px;
+    left: 675px;
+}
+.marker:nth-child(23) {
+    top: 465px;
+    left: 905px;
+}
+.marker:nth-child(24) {
+    top: 375px;
+    left: 257px;
+}
+.marker:nth-child(25) {
+    top: 618px;
+    left: 900px;
+}
+
+
+/* Добавьте стили для остальных меток здесь */
